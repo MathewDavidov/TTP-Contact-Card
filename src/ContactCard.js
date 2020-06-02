@@ -5,8 +5,8 @@ class ContactCard extends Component {
     render() {
         return (
             <div>
+                <h1>{this.props.name}</h1>
                 <ul>
-                    <h1>{this.props.name}</h1>
                     <li>mobile: {this.props.mobile}</li>
                     <li>work: {this.props.work}</li>
                     <li>email: {this.props.email}</li>
